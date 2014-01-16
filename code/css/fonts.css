@@ -7,7 +7,7 @@
 /*****************************************************
     PT Serif
 *****************************************************/
-
+/*
 @font-face {
   font-family: 'PT Serif';
   src: url('/fonts/pt_serif/regular/PTF55F-webfont.eot');
@@ -48,11 +48,11 @@
   font-weight: bold;
   font-style: italic;
 }
-
+*/
 /*****************************************************
     PT Sans
 *****************************************************/
-
+/*
 @font-face {
   font-family: 'PT Sans';
   src: url('/fonts/pt_sans/regular/PTS55F-webfont.eot');
@@ -93,7 +93,7 @@
   font-weight: bold;
   font-style: italic;
 }
-
+*/
 /*****************************************************
     PT Sans Narrow
 *****************************************************/
@@ -108,7 +108,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+/*@font-face {
   font-family: 'PT Sans Narrow';
   src: url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot');
   src: url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),
@@ -117,4 +117,4 @@
     url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.svg#pt_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
-}
+}*/
