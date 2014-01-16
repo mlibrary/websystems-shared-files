@@ -1,120 +1,124 @@
 /*
  *  This file is where we place all the @font-face rules used throughout the
- *  site. The files for all the fonts are stored in the in www.lib/web/fonts/
+ *  sites. The files for all the fonts are stored in www.lib/web/shared-files/fonts/ .
+ *
+ *  WARNING: DO NOT use this file directly. Copy what you need from it.
+ *  Loading the entire file can cause a browser to download all unused fonts,
+ *  slowing down load performance.
  */
 
 
 /*****************************************************
     PT Serif
 *****************************************************/
-/*
+
 @font-face {
   font-family: 'PT Serif';
-  src: url('/fonts/pt_serif/regular/PTF55F-webfont.eot');
-  src: url('/fonts/pt_serif/regular/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_serif/regular/PTF55F-webfont.woff') format('woff'),
-    url('/fonts/pt_serif/regular/PTF55F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_serif/regular/PTF55F-webfont.svg#pt_sansregular') format('svg');
+  src: url('/shared-files/fonts/pt_serif/regular/PTF55F-webfont.eot');
+  src: url('/shared-files/fonts/pt_serif/regular/PTF55F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_serif/regular/PTF55F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_serif/regular/PTF55F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_serif/regular/PTF55F-webfont.svg#pt_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PT Serif';
-  src: url('/fonts/pt_serif/bold/PTF75F-webfont.eot');
-  src: url('/fonts/pt_serif/bold/PTF75F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_serif/bold/PTF75F-webfont.woff') format('woff'),
-    url('/fonts/pt_serif/bold/PTF75F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_serif/bold/PTF75F-webfont.svg#pt_sansbold') format('svg');
+  src: url('/shared-files/fonts/pt_serif/bold/PTF75F-webfont.eot');
+  src: url('/shared-files/fonts/pt_serif/bold/PTF75F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_serif/bold/PTF75F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_serif/bold/PTF75F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_serif/bold/PTF75F-webfont.svg#pt_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'PT Serif';
-  src: url('/fonts/pt_serif/italic/PTF56F-webfont.eot');
-  src: url('/fonts/pt_serif/italic/PTF56F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_serif/italic/PTF56F-webfont.woff') format('woff'),
-    url('/fonts/pt_serif/italic/PTF56F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_serif/italic/PTF56F-webfont.svg#pt_sansitalic') format('svg');
+  src: url('/shared-files/fonts/pt_serif/italic/PTF56F-webfont.eot');
+  src: url('/shared-files/fonts/pt_serif/italic/PTF56F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_serif/italic/PTF56F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_serif/italic/PTF56F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_serif/italic/PTF56F-webfont.svg#pt_sansitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'PT Serif';
-  src: url('/fonts/pt_serif/italic/PTF76F-webfont.eot');
-  src: url('/fonts/pt_serif/italic/PTF76F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_serif/italic/PTF76F-webfont.woff') format('woff'),
-    url('/fonts/pt_serif/italic/PTF76F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_serif/italic/PTF76F-webfont.svg#pt_sansitalic') format('svg');
+  src: url('/shared-files/fonts/pt_serif/italic/PTF76F-webfont.eot');
+  src: url('/shared-files/fonts/pt_serif/italic/PTF76F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_serif/italic/PTF76F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_serif/italic/PTF76F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_serif/italic/PTF76F-webfont.svg#pt_sansitalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
-*/
+
 /*****************************************************
     PT Sans
 *****************************************************/
-/*
+
 @font-face {
   font-family: 'PT Sans';
-  src: url('/fonts/pt_sans/regular/PTS55F-webfont.eot');
-  src: url('/fonts/pt_sans/regular/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans/regular/PTS55F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans/regular/PTS55F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans/regular/PTS55F-webfont.svg#pt_sansregular') format('svg');
+  src: url('/shared-files/fonts/pt_sans/regular/PTS55F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans/regular/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans/regular/PTS55F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans/regular/PTS55F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans/regular/PTS55F-webfont.svg#pt_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PT Sans';
-  src: url('/fonts/pt_sans/bold/PTS75F-webfont.eot');
-  src: url('/fonts/pt_sans/bold/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans/bold/PTS75F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans/bold/PTS75F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans/bold/PTS75F-webfont.svg#pt_sansbold') format('svg');
+  src: url('/shared-files/fonts/pt_sans/bold/PTS75F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans/bold/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans/bold/PTS75F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans/bold/PTS75F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans/bold/PTS75F-webfont.svg#pt_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'PT Sans';
-  src: url('/fonts/pt_sans/italic/PTS56F-webfont.eot');
-  src: url('/fonts/pt_sans/italic/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans/italic/PTS56F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans/italic/PTS56F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans/italic/PTS56F-webfont.svg#pt_sansitalic') format('svg');
+  src: url('/shared-files/fonts/pt_sans/italic/PTS56F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans/italic/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans/italic/PTS56F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans/italic/PTS56F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans/italic/PTS56F-webfont.svg#pt_sansitalic') format('svg');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'PT Sans';
-  src: url('/fonts/pt_sans/italic/PTS76F-webfont.eot');
-  src: url('/fonts/pt_sans/italic/PTS76F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans/italic/PTS76F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans/italic/PTS76F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans/italic/PTS76F-webfont.svg#pt_sansitalic') format('svg');
+  src: url('/shared-files/fonts/pt_sans/italic/PTS76F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans/italic/PTS76F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans/italic/PTS76F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans/italic/PTS76F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans/italic/PTS76F-webfont.svg#pt_sansitalic') format('svg');
   font-weight: bold;
   font-style: italic;
 }
-*/
+
 /*****************************************************
     PT Sans Narrow
 *****************************************************/
 
 @font-face {
   font-family: 'PT Sans Narrow';
-  src: url('/fonts/pt_sans_narrow/regular/PTN57F-webfont.eot');
-  src: url('/fonts/pt_sans_narrow/regular/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans_narrow/regular/PTN57F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans_narrow/regular/PTN57F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans_narrow/regular/PTN57F-webfont.svg#pt_sansregular') format('svg');
+  src: url('/shared-files/fonts/pt_sans_narrow/regular/PTN57F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans_narrow/regular/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans_narrow/regular/PTN57F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans_narrow/regular/PTN57F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans_narrow/regular/PTN57F-webfont.svg#pt_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-/*@font-face {
+@font-face {
   font-family: 'PT Sans Narrow';
-  src: url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot');
-  src: url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.woff') format('woff'),
-    url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.ttf') format('truetype'),
-    url('/fonts/pt_sans_narrow/bold/PTN77F-webfont.svg#pt_sansbold') format('svg');
+  src: url('/shared-files/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot');
+  src: url('/shared-files/fonts/pt_sans_narrow/bold/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/shared-files/fonts/pt_sans_narrow/bold/PTN77F-webfont.woff') format('woff'),
+    url('/shared-files/fonts/pt_sans_narrow/bold/PTN77F-webfont.ttf') format('truetype'),
+    url('/shared-files/fonts/pt_sans_narrow/bold/PTN77F-webfont.svg#pt_sansbold') format('svg');
   font-weight: bold;
   font-style: normal;
-}*/
+}
